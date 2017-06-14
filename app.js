@@ -1,5 +1,5 @@
 var express = require('express');
-var mid = require('./modules/middle');
+var mid = require('./modules/middleware');
 var app = express();
 var port = 5000;
 
