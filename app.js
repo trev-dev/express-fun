@@ -1,7 +1,7 @@
 var express = require('express');
 var mid = require('./modules/middleware');
 var app = express();
-var port = 5000;
+var port = process.env.PORT || 5000;
 
 app.set('view engine', 'pug');
 app.use('/static', express.static(__dirname+'/public'));
